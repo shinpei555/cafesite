@@ -1,0 +1,198 @@
+body{
+    background-color: #efefef;
+    font-size:  14px;
+    color: #333;
+    margin: 0;
+}
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+/* リセットcssを記述する */
+header{
+    margin-top: 20px;
+    text-align: center;
+}
+.container{
+    width: 920px;
+    margin: 0 auto 40px auto;
+}
+.header-title-area{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    
+}
+.logo{
+    font-size: 32px;
+    font-family: 'Merienda', cursive,sans-serif;
+    font-family: 'Rock Salt', cursive,sans-serif;
+}
+.text-sub{
+    color: #777;
+}
+.header-navigation{
+    width: 100%;
+    background-color: #111111;
+    padding: 20px 0;
+    
+}
+.header-navigation:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.header-navigation li{
+    float: left;
+    padding: 0 30px;
+    text-align: center;
+    list-style-type: none;
+}
+.header-navigation li a{
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+
+
+
+.card-contents {
+  padding: 40px;
+  display: block;
+  margin-bottom: 20px;
+  
+}
+.text-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.left-contents{
+    width: 600px;
+    margin-right: 20px;
+    float: left;
+}
+.right-contents{
+    width: 300px;
+    float: left;
+}
+.information-list{
+    list-style-type: none;
+    padding-left: 0;
+}
+.information-list li {
+  margin-bottom: 10px;
+}
+.staff-list-area:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.staff-list {
+  width: 150px;
+  margin-right: 35px;
+  float: left;
+}
+.staff-list:last-child {
+  margin-right: 0;
+}
+.staff-image {
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: block;
+}
+.staff-name {
+  text-align: center;
+}
+.main:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+.copyright {
+  color: #777;
+  text-align: center;
+}
+/* aboutページcssここから */
+/* 左レイアウトここから-------- */
+
+.left-side{
+    width: 580px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+   
+}
+.left-content{
+    padding: 10px;
+}
+.left-photo{
+    margin-right:10px;
+    float: left;
+}
+.left-text{
+    float: left;
+}
+.left-text h2{
+    padding: 10px 0;
+    font-size: 14px;
+    width:350px;
+    height: 30px;
+    overflow: hidden;
+}
+.left-text h2 a{
+    color: #0099FF;
+    text-decoration: none;
+}
+.left-text h2 a:hover{
+    color: #FF0000;
+}
+.left-text p{
+     
+     width:350px;
+     height:80px;
+     overflow: scroll;
+}
+/* 右レイアウトここから ----------*/
+.right-side{
+    width: 300px;
+    
+    float: left;
+}
+.right-side h2{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.right-photo img{
+    width: 50px;
+}
+.right-photo{
+    float: left;
+    margin-right: 10px;
+}
+.right-text a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #0099FF;
+}
+.right-text a:hover{
+color: #FF0000;
+}
+.right-content{
+    margin: 18px 0;
+}
+.right-content time{
+    font-size: 10px;
+}
+footer{
+    margin: 80px auto 0 auto;
+    background-color: #111111;
+    padding: 10px;
+    width: 900px;
+}
+.copyright{
+    color: #fff;
+}
